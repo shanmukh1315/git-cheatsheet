@@ -10,7 +10,8 @@
 
 2. `cd` — change directory     - notes: cd .. (up one level), cd ~ (home)
 
-3. `pwd` — print working directory  
+3. `pwd` — print working directory     - notes: prints the absolute path of the current directory
+
 4. `mkdir` — create directory  
 5. `rm` — remove files/directories  
 6. `cp` — copy files  

@@ -12,7 +12,8 @@
 
 3. `pwd` — print working directory     - notes: prints the absolute path of the current directory
 
-4. `mkdir` — create directory  
+4. `mkdir` — create directory  - notes: mkdir -p (make parent dirs), mkdir new_folder
+
 5. `rm` — remove files/directories  
 6. `cp` — copy files  
 7. `mv` — move/rename files  

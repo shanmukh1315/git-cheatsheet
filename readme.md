@@ -14,20 +14,31 @@
 
 4. `mkdir` — create directory  - notes: mkdir -p (make parent dirs), mkdir new_folder
 
-5. `rm` — remove files/directories  
-6. `cp` — copy files  
-7. `mv` — move/rename files  
-8. `cat` — print file contents  
-9. `less` — view file paged  
-10. `grep` — search text  
-11. `find` — search files  
-12. `chmod` — change permissions  
-13. `chown` — change owner  
-14. `tar` — archive/compress  
-15. `ssh` — secure shell  
-16. `echo` — print text to terminal or file  
-17. `head` — show first lines of a file  
-18. `tail` — show last lines of a file  
+5. `rm` — remove files/directories  - notes: rm file.txt, rm -r dir (remove directory), rm -f (force)
+
+6. `cp` — copy files  - notes: cp file1 file2, cp -r dir1 dir2 (copy folder)
+
+7. `mv` — move/rename files  - notes: mv old.txt new.txt (rename), mv file.txt /path/ (move)
+
+8. `cat` — print file contents  - notes: cat file.txt, cat file1 file2 > combined.txt
+
+9. `less` — view file paged  - notes: less bigfile.txt (scroll with arrows, q to quit)
+
+10. `grep` — search text  - notes: grep "word" file.txt, grep -i (ignore case), grep -R (recursive)
+
+11. `find` — search files - notes: find . -name "*.txt", find /path -type f -mtime -1
+ 
+12. `chmod` — change permissions  - notes: chmod +x script.sh, chmod 644 file.txt
+
+13. `chown` — change owner  - notes: sudo chown user:user file.txt
+
+14. `tar` — archive/compress  - notes: tar -czvf archive.tar.gz folder/, tar -xvzf archive.tar.gz
+
+15. `ssh` — secure shell   - notes: ssh user@host, ssh -i keyfile.pem user@host
+
+16. `echo` — print text to terminal or file  - notes: echo "hello", echo $PATH
+17. `head` — show first lines of a file  - notes: head -n 5 file.txt (first 5 lines)
+18. `tail` — show last lines of a file  - notes: tail -n 5 file.txt (last 5 lines), tail -f logfile (follow)
 
 ---
 

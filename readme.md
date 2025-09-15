@@ -1,5 +1,3 @@
-3. `git add` — stage changes  - notes: stage changes for the next commit (use . to add all)
-
 > Maintained by shanmukh1315
 
 ---

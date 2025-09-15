@@ -44,19 +44,34 @@
 
 ## Git Commands 
 
-1. `git init` — create repo  
-2. `git status` — what changed  
-3. `git add` — stage changes  
-4. `git commit` — save snapshot  
-5. `git log` — history  
-6. `git branch` — list/create branches  
-7. `git checkout -b <name>` — new branch + switch  
-8. `git merge <name>` — merge a branch  
-9. `git remote add origin <url>` — set remote  
-10. `git push -u origin main` — push main upstream  
-11. `git clone <url>` — copy a repo from GitHub  
-12. `git pull` — get latest changes from remote  
-13. `git diff` — show changes between commits or working tree  
-14. `git reset <file>` — unstage a file  
-15. `git stash` — save work in progress temporarily  
+1. `git init` — create repo    - notes: init new repo in current folder
+ 
+2. `git status` — what changed  - notes: show staged, unstaged, and untracked files
+
+3. `git add` — stage changes  - notes: stage changes for the next commit (use . to add all)
+
+4. `git commit` — save snapshot  - notes: record staged changes (with -m "msg" for inline message)
+
+5. `git log` — history  - notes: view commit history, use --oneline for concise view
+
+6. `git branch` — list/create branches  - notes: list branches, git branch new-branch creates one
+
+7. `git checkout -b <name>` — new branch + switch  - notes: create and switch to a new branch in one command
+
+8. `git merge <name>` — merge a branch  - notes: link local repo to a remote server (usually GitHub)
+
+9. `git remote add origin <url>` — set remote  - notes: link local repo to a remote server (usually GitHub)
+
+10. `git push -u origin main` — push main upstream  - notes: upload local commits to remote, -u sets tracking
+
+11. `git clone <url>` — copy a repo from GitHub  - notes: download a full copy of a remote repository
+
+12. `git pull` — get latest changes from remote  - notes: fetch and merge changes from the remote branch
+
+13. `git diff` — show changes between commits or working tree  - notes: show line-by-line differences since last commit
+
+14. `git reset <file>` — unstage a file  - notes: unstage a file but keep changes in working directory
+
+15. `git stash` — save work in progress temporarily  - notes: save uncommitted changes for later, restore with stash pop
+
 

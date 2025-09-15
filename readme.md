@@ -6,7 +6,8 @@
 
 ## Linux Commands 
 
-1. `ls` — list files  
+1. `ls` — list files  - notes: ls -l (long), ls -a (hidden), ls -h (human sizes)
+
 2. `cd` — change directory     - notes: cd .. (up one level), cd ~ (home)
 
 3. `pwd` — print working directory  

@@ -1,3 +1,4 @@
+
 > Maintained by shanmukh1315
 
 ---
@@ -53,10 +54,9 @@
 5. `git log` — history  - notes: view commit history, use --oneline for concise view
 
 6. `git branch` — list/create branches  - notes: list branches, git branch new-branch creates one
-
 7. `git checkout -b <name>` — new branch + switch  - notes: create and switch to a new branch in one command
 
-8. `git merge <name>` — merge a branch  - notes: link local repo to a remote server (usually GitHub)
+8. `git merge <name>` - notes: merge changes from another branch into the current branch
 
 9. `git remote add origin <url>` — set remote  - notes: link local repo to a remote server (usually GitHub)
 

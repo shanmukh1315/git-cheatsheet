@@ -72,4 +72,4 @@
 
 15. `git stash` — save work in progress temporarily  - notes: save uncommitted changes for later, restore with stash pop
 
-
+16. 'git clone' - Clone a repository from GitHub or any remote.
